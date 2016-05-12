@@ -1,9 +1,7 @@
 do
 
 function run(msg, matches)
-       if not is_sudo(msg) then
-              return "/!\Only For Sudo/!\"       
-end
+
   local tex = matches[1]
   local sps = matches[2]
   local sp = matches[3]
